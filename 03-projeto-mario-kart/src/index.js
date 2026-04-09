@@ -1,16 +1,48 @@
 const player1 = {
-  NOME: "Mario",
+  NOME: "Jude",
   VELOCIDADE: 4,
-  MANOBRABILIDADE: 3,
-  PODER: 3,
+  FORÇA: 4,
+  RESISTENCIA: 5,
   PONTOS: 0,
 };
 
 const player2 = {
-  NOME: "Luigi",
+  NOME: "Cardan",
+  VELOCIDADE: 5,
+  FORÇA: 3,
+  RESISTENCIA: 3,
+  PONTOS: 0,
+};
+
+const player3 = {
+  NOME: "Madoc",
   VELOCIDADE: 3,
-  MANOBRABILIDADE: 4,
-  PODER: 4,
+  FORÇA: 5,
+  RESISTENCIA: 5,
+  PONTOS: 0,
+};
+
+const player4 = {
+  NOME: "Bomba",
+  VELOCIDADE: 4,
+  FORÇA: 2,
+  RESISTENCIA: 3,
+  PONTOS: 0,
+};
+
+const player5 = {
+  NOME: "Barata",
+  VELOCIDADE: 5,
+  FORÇA: 2,
+  RESISTENCIA: 3,
+  PONTOS: 0,
+};
+
+const player6 = {
+  NOME: "Taryn",
+  VELOCIDADE: 3,
+  FORÇA: 2,
+  RESISTENCIA: 3,
   PONTOS: 0,
 };
 
