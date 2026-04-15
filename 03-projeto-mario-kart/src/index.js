@@ -78,7 +78,7 @@ async function logRollResult(characterName, block, diceResult, attribute) {
 
 async function playRaceEngine(character1, character2) {
   for (let round = 1; round <= 5; round++) {
-    console.log(`🏁 Rodada ${round}`);
+    console.log(`ROUND: ${round}`);
 
     // sortear bloco
     let block = await getRandomBlock();
@@ -222,15 +222,15 @@ async function declareWinner(character1, character2) {
   console.log(`${character2.NOME}: ${character2.PONTOS} ponto(s)`);
 
   if (character1.PONTOS > character2.PONTOS)
-    console.log(`\n${character1.NOME} venceu a corrida! Parabéns! 🏆`);
+    console.log(`\n${character1.NOME} venceu a DISPUTA! Parabéns! `);
   else if (character2.PONTOS > character1.PONTOS)
-    console.log(`\n${character2.NOME} venceu a corrida! Parabéns! 🏆`);
-  else console.log("A corrida terminou em empate");
+    console.log(`\n${character2.NOME} venceu a DISPUTA! Parabéns! `);
+  else console.log("A LUTA terminou em empate");
 }
 
 (async function main() {
   console.log(
-    `🏁🚨 Corrida entre ${player1.NOME} e ${player2.NOME} começando...\n`
+    `🏁🚨 LUTA entre ${player1.NOME} e ${player2.NOME} começando...\n`
   );
 
   await playRaceEngine(player1, player2);
